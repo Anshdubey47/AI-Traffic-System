@@ -28,10 +28,7 @@ let roadNetworkGroup = null;    // L.layerGroup for roads
 //  BACKEND COMMUNICATION
 // ═══════════════════════════════════════════════
 function getBackendBase() {
-    if (window.location.protocol === 'file:') {
-        return 'http://127.0.0.1:5050';
-    }
-    return window.location.origin;
+    return "https://ai-traffic-system-x2i0.onrender.com";
 }
 
 // ═══════════════════════════════════════════════
